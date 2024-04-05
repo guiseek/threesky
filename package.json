@@ -1,0 +1,17 @@
+{
+  "name": "@threesky/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {},
+  "private": true,
+  "devDependencies": {
+    "@angular-devkit/core": "~17.3.0",
+    "@nestjs/schematics": "^10.0.1",
+    "@nx/angular": "18.2.3",
+    "@nx/js": "18.2.3",
+    "@nx/nest": "18.2.3",
+    "@nx/workspace": "18.2.3",
+    "nx": "18.2.3"
+  },
+  "dependencies": {}
+}
