@@ -16,7 +16,15 @@
         "polyfills": ["zone.js"],
         "tsConfig": "apps/client/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["apps/client/src/favicon.ico", "apps/client/src/assets"],
+        "assets": [
+          "apps/client/src/favicon.ico",
+          "apps/client/src/assets",
+          {
+            "input": "packages/ui-models/glb",
+            "glob": "**/*.glb",
+            "output": "models"
+          }
+        ],
         "styles": ["apps/client/src/styles.scss"],
         "scripts": []
       },
