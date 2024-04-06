@@ -1,1 +1,4 @@
 node_modules
+packages/models-three/node_modules
+packages/util-three/node_modules
+apps/client/src/assets/js

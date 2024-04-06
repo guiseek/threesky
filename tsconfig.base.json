@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@threesky/ui-models": ["packages/ui-models/src/index.ts"]
+      "@threesky/models-three": ["packages/models-three/src/index.ts"],
+      "@threesky/util-three": ["packages/util-three/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
